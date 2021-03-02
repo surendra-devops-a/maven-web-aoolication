@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>wallmart Releases Nexus Repository</name>
-	      <url>http://35.154.56.252:9966/surendra/repository/wallmart-release/</url>
+	      <url>http://13.233.146.68:9966/surendra/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>wallmart Snapshot Nexus Repository </name>
-	      <url>http://35.154.56.252:9966/surendra/repository/wallmart-snapshot/</url>
+	      <url>http://13.233.146.68:9966/surendra/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
