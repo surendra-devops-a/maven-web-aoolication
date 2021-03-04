@@ -52,20 +52,18 @@ stages{
 	post{
 
 	  success{
-	    mail body: '''Build Over!.. Success
+	    emailext body: '''Build Over!.. Success
 
-Regards,
-Mithun Technologies,
-9980923226''', subject: 'Build Over...Successfull', to: 'devopstrainingblr@gmail.com'
+         regards
+suri''', subject: 'build over', to: 'suri124.ss@gmail.com'
 	  }
 	  
 	  failure{
 	     
-	  	    mail body: '''Build Over!.. Failed
+	  	    emailext body: '''Build Over!.. Failed
 
 	  Regards,
-	  Mithun Technologies,
-	  9980923226''', subject: 'Build Over...Failed', to: 'devopstrainingblr@gmail.com'
+	  suri''', subject: 'build over', to: 'suri124.ss@gmail.com'
 	  }
 	  
 	  
